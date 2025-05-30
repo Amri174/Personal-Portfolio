@@ -4,7 +4,6 @@
 <p align="center">
   <video src="https://github.com/user-attachments/assets/e6a8642b-df5e-4829-b596-32909c50b147" controls width="300" style="margin-left:400;" ></video>
 </p> 
-<br></br>
 <details>
 <summary><h2><b>Screenshots (click to open)</b></h2></summary>
 <p>
@@ -34,7 +33,47 @@ Responsive, single-page personal portfolio website built with **React** using ad
 - **Timeline Element:** Display extracurricular activities
 - **Battery Status:** Fixed position element at left bottom
 
-<!--## Repository Structure-->
+<details>
+<summary><h3><b>Repository Structure (click to open)</b></h3></summary>
+
+``````
+├── Code Files/             
+│   ├── pubilc/          
+│   │   ├── favicon.ico
+│   │   ├── index.html                 
+│   │
+│   ├── src
+│   │   ├── assets/
+│   │   │   ├── font/
+│   │   │   ├── img/
+│   │   │   
+│   │   ├── components/
+│   │   │   ├── Banner.js
+│   │   │   ├── BatteryStatus.js
+│   │   │   ├── Contact.js
+│   │   │   ├── NavBar.js
+│   │   │   ├── ParticlesBackground.js
+│   │   │   ├── Project.js
+│   │   │   ├── ProjectCard.js
+│   │   │   ├── Skills.js
+│   │   │
+│   │   ├── App.js
+│   │   ├── App.scss
+│   │   ├── App.test.js
+│   │   ├── index.css
+│   │   ├── index.js
+│   │
+│   ├── README.md 
+│   ├── package-lockjson
+│   ├── package.json
+│   ├── server.js
+│   
+├── capture/
+│
+├── README.md 
+``````
+</details>
+
 ## Prerequisites
 - **Node.js** (Version >= 14.0.0)
 - **npm** (Node Package Manager)
@@ -60,9 +99,9 @@ EMAIL_USER=your_email@example.com
 EMAIL_PASS=your_app_password
 PORT=3000 
 ``````
-<!--
+
 ## Clone the repository
 ``````
-git clone <your-repository-url>
+git clone https://github.com/Amri174/Personal-Portfolio.git
 ``````
---!>
+
